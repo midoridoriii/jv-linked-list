@@ -3,8 +3,13 @@ package core.basesyntax;
 import java.util.List;
 
 public class MyLinkedList<T> implements MyLinkedListInterface<T> {
+    private MyLinkedList<T> head;
+    private MyLinkedList<T> tail;
+    private T value;
+
     @Override
     public void add(T value) {
+
     }
 
     @Override
